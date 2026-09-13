@@ -19,7 +19,7 @@ library(haven)
 library(lavaan)
 library(ggplot2)
 
-merged_EOSC_ESS8e02_2 <- read_sav("C:/Users/nafia/Downloads/merged-EOSC-ESS8e02_2/merged-EOSC-ESS8e02_2.sav")
+merged_EOSC_ESS8e02_2 <- read_sav("data/merged-EOSC-ESS8e02_2.sav")
 analysis_data <- merged_EOSC_ESS8e02_2[c(
   "wrclmch",
   "ccrdprs",
