@@ -1,4 +1,4 @@
-# Climate-Change-Concern-and-Energy-Efficient-Purchase-Intensions
+# Climate Change Concern and Energy Efficient Purchase Intensions
 
 ## Overview
 
@@ -16,8 +16,6 @@ The project examines:
 - Whether household income moderates the relationship between climate change concern and personal responsibility.
 - Whether the indirect relationship between climate change concern and purchase intentions varies across income levels.
 
----
-
 ## Conceptual Model
 
 - **X:** Climate change concern (`wrclmch`)
@@ -27,8 +25,6 @@ The project examines:
 
 The analysis uses a moderated mediation model equivalent to **PROCESS Model 7**, where household income moderates the first-stage relationship between climate change concern and personal responsibility.
 
----
-
 ## Data
 
 The study uses data from the **European Social Survey (ESS) Round 8**, specifically the climate change and energy module.
@@ -36,8 +32,6 @@ The study uses data from the **European Social Survey (ESS) Round 8**, specifica
 The dataset contained 2,582 observations, with 2,089 complete cases used in the moderated mediation analysis.
 
 The analysis is based on cross-sectional, observational data.
-
----
 
 ## Analysis
 
@@ -59,8 +53,6 @@ The analysis was conducted in R using the following steps:
 
 Bootstrap standard errors and confidence intervals were estimated using 1,000 bootstrap samples.
 
----
-
 ## Results
 
 The analysis found that climate change concern was positively associated with personal responsibility for reducing climate change.
@@ -72,8 +64,6 @@ The indirect relationship between climate change concern and energy-efficient pu
 A robustness check including a direct path from income to purchase likelihood did not substantially change the moderated mediation results.
 
 Because the data are cross-sectional, the findings should be interpreted as associations rather than causal effects.
-
----
 
 ## Project Structure
 
